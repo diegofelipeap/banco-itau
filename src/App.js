@@ -1,8 +1,9 @@
+import Header from "./Components/Header";
 
 function App() {
   return (
     <>
-      Olá, banco Itaú!
+      <Header />
     </>
   );
 }

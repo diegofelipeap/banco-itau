@@ -16,7 +16,7 @@ export const ContainerItens = styled.div`
     justify-content: space-between;
     height: 100%;
     max-width: 1246px;
-    padding: 0 50px;
+    padding: 0 15px;
     margin: 0 auto;
 `
 export const Img = styled.img`
@@ -30,7 +30,9 @@ export const Ul = styled.ul`
     align-items: center;
     justify-content: center;
     gap: 40px;
-    cursor: pointer;
+    margin: 0 20px 0 0;
+`
+export const Li = styled.li`
     list-style: none;
 `
 export const ButtonItemMenu = styled.button`

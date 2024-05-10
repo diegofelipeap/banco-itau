@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Landing Page Clone do Banco Itaú
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de uma landing page clone do Banco Itaú, desenvolvido utilizando React, HTML e a biblioteca Styled-components para estilização. O React Hook UseRef foi utilizado para manipular eventos de clique do usuário.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Réplica da interface da página inicial do Banco Itaú (uma das versões já criada).
+- Manipulação de eventos de clique do usuário para interação com elementos da página.
 
-### `npm start`
+## Componentes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto é composto por três componentes principais:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Header**: Este componente representa o cabeçalho da página, contendo o logotipo e possíveis links de navegação.
 
-### `npm test`
+2. **Section Hero**: Este componente representa a seção inicial da página, que normalmente contém uma mensagem de boas-vindas, informações sobre os produtos ou serviços principais e uma imagem de destaque.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **SectionService**: Este componente representa a seção de serviços do Banco Itaú, destacando os principais serviços oferecidos pela instituição.
 
-### `npm run build`
+## Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de começar, verifique se você possui os seguintes requisitos:
+- Node.js instalado na sua máquina
+- Yarn instalado na sua máquina
+- Um navegador web moderno
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalação e Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para instalar e usar este projeto, siga estes passos:
 
-### `npm run eject`
+1. Clone este repositório:
+    ```
+    git clone https://github.com/seu-usuario/landing-page-clone
+    ```
+2. Navegue até o diretório do projeto:
+    ```
+    cd landing-page-clone
+    ```
+3. Instale as dependências:
+    ```
+    yarn install
+    ```
+4. Inicie a aplicação:
+    ```
+    yarn start
+    ```
+5. Acesse a aplicação em seu navegador web em `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Preview:
+![Mockup Banco Itaú](https://github.com/diegofelipeap/banco-itau/assets/78945288/4eec7ccd-ca1a-4f70-86c5-1b6b439e06ef)
+*Display da Aplicação. A versão mobile será criada através dos Media Queries.*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contribuição
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são **muito bem-vindas**.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Faça commit de suas mudanças (`git commit -m 'Adiciona uma feature incrível'`)
+4. Faça push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

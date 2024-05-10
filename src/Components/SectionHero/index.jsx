@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef }from 'react'
 import * as S from './styles'
 import ImgAppleStore from '../../assets/btn-apple-store.svg'
 import ImgPlayStore from '../../assets/btn-google-play.svg'
@@ -6,6 +6,11 @@ import Arrow from '../../assets/arrow-explorer.svg'
 import WomanImage from '../../assets/woman.png'
 
 export default function SectionHero() {
+    const sectionServiceRef = useRef(null);
+
+    const handleExplorerButtonClick = () => {
+        sectionServiceRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
     return (
         <S.Section>
             <S.Container>
@@ -22,7 +27,7 @@ export default function SectionHero() {
                         </S.Button>
                     </S.DivButtons>
 
-                    <S.ButtonExplorer>
+                    <S.ButtonExplorer onClick={handleExplorerButtonClick}>
                         <img src={Arrow} alt="ícone de seta para baixo" />
                         <S.Span>Continue Explorando</S.Span>
                     </S.ButtonExplorer>
@@ -31,6 +36,7 @@ export default function SectionHero() {
                 <S.ImageWoman src={WomanImage} alt="Imagem de uma mulher" />
 
             </S.Container>
+            <div ref={sectionServiceRef} />
         </S.Section>
     )
 }
